@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="../static/login_css1.css">
+    <link rel="stylesheet" href="../static/login_css2.css">
+    <link rel="stylesheet" href="/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="/fonts/fontawesome5-overrides.min.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <nav class="navbar navbar-dark align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0">
+            <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
+                    <div class="sidebar-brand-icon rotate-n-15"><i class="fas fa-laugh-wink"></i></div>
+                    <div class="sidebar-brand-text mx-3"><span>Brand</span></div>
+                </a>
+                <hr class="sidebar-divider my-0">
+                <ul class="navbar-nav text-light" id="accordionSidebar">
+                    <li class="nav-item"><a class="nav-link" href="/i_home"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/insights"><i class="fas fa-table"></i><span>Your Insights</span></a></li> 
+                    <li class="nav-item"><a class="nav-link" href="/iinvoices"><i class="fas fa-table"></i><span>Invoices</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/imerch"><i class="far fa-user-circle"></i><span>Merchandise</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/payment"><i class="far fa-user-circle"></i><span>Payment</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/ichats"><i class="fas fa-user-circle"></i><span>Chats</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="/iprofile"><i class="fas fa-user"></i><span>Profile</span></a></li>
+                </ul>
+               
+            </div>
+        </nav>
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+         
+                </nav>
+                <div class="container-fluid">
+                    <h3 class="text-dark mb-4">Profile</h3>
+                    <div class="row mb-3">
+                        <div class="col-lg-4">
+                            <div class="card mb-3">
+                                <div class="card-body text-center shadow"><img class="rounded-circle mb-3 mt-4" src="../static/imgs/user.png" width="160" height="160">
+                                   
+                                </div> 
+                            </div>
+                            <br>
+                                <input type="submit" class="btn btn-primary d-block btn-user w-100" value="Chat"> 
+                            <div class="card shadow mb-4">
+                                                              
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <div class="row mb-3 d-none">
+                                <div class="col">
+                                    <div class="card textwhite bg-primary text-white shadow">
+                                        <div class="card-body">
+                                            <div class="row mb-2">
+                                                <div class="col">
+                                                    <p class="m-0">Peformance</p>
+                                                    <p class="m-0"><strong>65.2%</strong></p>
+                                                </div>
+                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                            </div>
+                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5% since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="card textwhite bg-success text-white shadow">
+                                        <div class="card-body">
+                                            <div class="row mb-2">
+                                                <div class="col">
+                                                    <p class="m-0">Peformance</p>
+                                                    <p class="m-0"><strong>65.2%</strong></p>
+                                                </div>
+                                                <div class="col-auto"><i class="fas fa-rocket fa-2x"></i></div>
+                                            </div>
+                                            <p class="text-white-50 small m-0"><i class="fas fa-arrow-up"></i>&nbsp;5% since last month</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card shadow mb-3">
+                                        <div class="card-header py-3">
+                                            <p class="text-primary m-0 fw-bold">Profile Details</p>
+                                        </div>
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="mb-3"><label class="form-label" for="username"><strong></strong><br></label><h4>{{accounts['Name']}}</h4></div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="mb-3"><label class="form-label" for="email"><strong></strong><br></label><h4>{{accounts['email']}}</h4></div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="card shadow">
+                                        <div class="card-header py-3">
+                                            <p class="text-primary m-0 fw-bold">Personal Details</p>
+                                        </div>
+                                        <div class="card-body">
+                                            <form>
+                                                <div class="mb-3"><label class="form-label" for="address"><strong></strong></label><h4>{{accounts['bio']}}</h4></div>
+                                               
+     -->
+                                                    <div class="col">
+                                                        <div class="mb-3"><label class="form-label" for="city"><strong></strong></label><h4>{{accounts['description']}}</h4></div>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div style="padding-left: 5%" class="mb-3"><label class="form-label" for="city"><strong></strong></label><h4>{{accounts['website']}}</h4></div>
+                                                    </div>
+                                                    <div  class="col">
+                                                        <div style="padding-right: 5%" class="mb-3"><label class="form-label" for="country"><strong></strong></label><h4>{{accounts['linkedin']}}</h4></div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="mb-3"></div>
+                                                
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="row" style="margin: 25px; "> 
+                    <div class="col-md-6 col-lg-4" >
+                        <div class="card border-0"  ><a href="#"  style="  width: 396px;height: 260px;background-position: center center;background-repeat: no-repeat;overflow: hidden;"><img class="card-img-top scale-on-hover" src="../static/imgs/pic1.jpeg" alt="Card Image" ></a>
+                            <div class="card-body">
+                                <h6><a style="font-weight: bolder;color: black;">One Page Wonder.</a></h6>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#" style="  width: 396px;height: 260px;background-position: center center;background-repeat: no-repeat;overflow: hidden;"><img class="card-img-top scale-on-hover" src="../static/imgs/pic2.jpeg" alt="Card Image" ></a>
+                            <div class="card-body">
+                                <h6><a  style="font-weight: bolder;color: black;">Agency </a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"style="  width: 396px;height: 260px;background-position: center center;background-repeat: no-repeat;overflow: hidden;"><img class="card-img-top scale-on-hover" src="../static/imgs/pic3.jpeg" alt="Card Image" ></a>
+                            <div class="card-body">
+                                <h6><a style="font-weight: bolder;color: black;">Business Casual.</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"style="  width: 396px;height: 260px;background-position: center center;background-repeat: no-repeat;overflow: hidden;"><img class="card-img-top scale-on-hover" src="../static/imgs/pic4.jpeg" alt="Card Image" ></a>
+                            <div class="card-body">
+                                <h6><a style="font-weight: bolder;color: black;">Clean Blog.</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"style="  width: 396px;height: 260px;background-position: center center;background-repeat: no-repeat;overflow: hidden;"><img class="card-img-top scale-on-hover" src="../static/imgs/pic5.jpeg" alt="Card Image" >
+                            <div class="card-body">
+                                <h6><a style="font-weight: bolder;color: black;">Freelancer.</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"style="  width: 396px;height: 260px;background-position: center center;background-repeat: no-repeat;overflow: hidden;"><img class="card-img-top scale-on-hover" src="../static/imgs/pic6.jpeg" alt="Card Image" ></a>
+                            <div class="card-body">
+                                <h6><a style="font-weight: bolder;color: black;">New Age.</a></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        
+        </div>
+    
+    <script src="../static/login_js1.js"></script>
+    <script src="../static/login_js2.js"></script>
+    <script src="../static/login_js3.js"></script>
+    <script id="bs-live-reload" data-sseport="59388" data-lastchange="1628952396709" src="../static/login_js4.js"></script>
+</body>
+
+</html>

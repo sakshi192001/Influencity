@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Register - Brand</title>
+    <link rel="stylesheet" href="static/login_css1.css">
+    <link rel="stylesheet" href="static/login_css2.css">
+    <link rel="stylesheet" href="/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="/fonts/fontawesome5-overrides.min.css">
+</head>
+
+<body class="bg-gradient-primary">
+    <div class="container">
+        <div class="card shadow-lg o-hidden border-0 my-5">
+            <div class="card-body p-0">
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-flex">
+                        <div class="flex-grow-1 bg-register-image" style="background-image: url(&quot;../static/imgs/social-media-ai.jpg&quot;);"></div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h4 class="text-dark mb-4">Create an Account!</h4>
+                            </div>
+                            <form class="user" method="POST" enctype = "multipart/form-data">
+
+                              
+                                <div class="mb-3"><input class="form-control form-control-user" type="text" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Name" name="name"></div>
+                                <div class="mb-3"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Email Address" name="email"></div>
+                                <div class="row mb-3">
+                                    <div class="col-sm-6 mb-3 mb-sm-0"><input class="form-control form-control-user" type="password" id="examplePasswordInput" placeholder="Password" name="password"></div>
+                                    <div class="col-sm-6"><input class="form-control form-control-user" type="password" id="exampleRepeatPasswordInput" placeholder="Repeat Password" name="password_repeat"></div>
+                                </div>
+                                <div>
+                                    <p>Please select if you're an influencer or a company:</p>
+                                    <input type="radio" id="html" name="type" value="iregister">
+                                    <label for="html">Influencer</label>
+                                    <input type="radio" id="css" name="type" value="cregister">
+                                    <label for="css">Company</label><br><br>
+                                  
+                                </div>
+                                <label for="myfile">Upload your profile photo here:</label>
+                                <input type="file" id="myfile" name="file"><br><br>
+                                <input class="btn btn-primary d-block btn-user w-100" type="submit" value="Next">
+                               
+                                <hr>
+                            </form>
+     
+                            <div class="text-center"><a class="small" href="/">Already have an account? Login!</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="static/login_js1.js"></script>
+    <script src="static/login_js2.js"></script>
+    <script src="static/login_js3.js"></script>
+    <script id="bs-live-reload" data-sseport="56184" data-lastchange="1628938077302" src="static/login_js4.js"></script>
+</body>
+
+</html>
