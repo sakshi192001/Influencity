@@ -1,4 +1,4 @@
-# devfest
+# Influencity
 Steps to Run the code:
  Create a project folder in VScode.
  Open the folder and create virtual environment by running the command "python -m venv env" in the terminal.
