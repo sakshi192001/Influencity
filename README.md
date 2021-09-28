@@ -9,13 +9,21 @@ The creator economy boomed due to exponential increase in the use of social netw
 Another major issue influencers face is finding the right companies to collaborate with. Now this problem can go both ways, most companies are open to working with these people for publicising their products or services but it is just a matter of finding the right influencers.
 Our web application Influencity is designed to solve  this problem. We have designed the app to have 2 interfaces: the user side and the organization side.
 The user side is designed to be used by all content creators, freelancers, curators and even the fans of the mentioned persons. They will be provided with the following features:
+
 Check insights: Users get a visual representation of analysis about their followers and subscribers.
+
 Invoices: Users get the details of all the past payments and deals with the companies
+
 Merchandise: Users can see the display products that are out for sell by other influencers/ curators/ freelancers. Also then viewers will be redirected to the Merchandiser's website if they wish to buy.
+
 Payment: To support other creators whose content you like or to collaborate with some project with them, you can pay them. You can chat with the other creators only if you pay.
+
 Chat: Creators can chat with the companies who approach them for collaborations and can see messages from fans/followers who have supported by payment previously.
+
 Portfolio: Companies will be able to see all the details of the creator under their portfolio.
+
 Updating profile: They can anytime change/ update their personal details and the images for merchandising
+
 Organizations here refer to anybody looking for influencers to endorse their products or to publicize their services and to collaborate for any projects and deals with them. They will have the following features:
 Invoices: Company can get a list of all their previous collaborations and all details of their deals with the said influencers.
 Products: This feature allows the company to check out merchandise released by the many influencers using their platform.
